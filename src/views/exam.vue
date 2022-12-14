@@ -15,10 +15,8 @@ export default {
     return {};
   },
   computed: {
-    ...mapState("examStore", ["txt"])
   },
   methods: {
-    ...mapMutations("examStore", ["modTxt"])
   },
   created() {
     examPostRequest();
